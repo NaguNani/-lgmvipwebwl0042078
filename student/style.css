@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(15, 14, 14);
+    background-color: rgb(10, 235, 239);
+  }
+  
+  .result{
+    display: list-item;
+    width: 1000px;
+    color:rgb(0, 11, 11)
+  }
+  .skills{
+    display:flex;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+  details-container{
+    width:100px;
+    text-align: center;
+    background-color: #eee4e4;
+    background: #f03a03;
+  font-weight: bolder;
+  }
+  table{
+    border-collapse: collapse;
+    width: 100%;
+  
+  }
+  table,
+  th,
+  td{
+    border: 2px solid #000000;
+    text-align: center;
+  
+  }
+  th,
+  td{
+    padding: 8px ;
+    text-align: left;
+  
+  }
+  
+  
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+  }

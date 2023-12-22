@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Enrollment Form</h1>
+         <form id="student-list">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="website">Website:</label>
+        <input type="text" id="website">
+        <br>
+        <label for="image">Image Link:</label>
+        <input type="text" id="image">
+        <br>
+        <label for="gender">Gender:</label>
+        <select id="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+        <br>
+        <label for="skills">Skills:</label>
+        <input type="text" name="Skills" id="skills">
+        <br>
+        <button type="submit">Enroll Student</button>
+        <button type="reset">Clear form</button>
+        <br>
+    </form>
+    <div class="details-container">
+        <h2>User Details</h2>
+        <table  class ="list" id="user-details">
+          <tr>
+          <th style="width:20%">Name</th>
+          <th style="width:20%">Email</th>
+          <th style="width:20%">Website</th>
+          <th style="width:20%">Gender</th>
+          <th style="width:20%">Skills</th>
+          <th style="width:20%">Image</th>
+          </tr>
+       </table>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
